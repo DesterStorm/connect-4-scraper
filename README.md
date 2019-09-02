@@ -34,3 +34,5 @@ Each move is verified as a legal move by check_move?:
     when the index is not open, subtract 1 from index to place piece 1 row up.
     current turn changes after placing a valid piece.
     if the move is illegal, puts Invalid move msg and doesn't change turns.
+
+To play the game and get the tips on how to win at connect 4, run the play.rb file!

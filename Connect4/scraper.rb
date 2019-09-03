@@ -14,7 +14,7 @@ class Scraper
   def step1
     html = open('https://www.wikihow.com/Win-at-Connect-4')
     doc = Nokogiri::HTML(html)
-    puts doc.css('#step-id-00 div.step').text.strip
+    puts doc.css('#step-id-00 div.step').text.strip.gsub("WH.performance.mark('step1_rendered');", " ")
     # puts doc.css(".step.whb li")
   end
 

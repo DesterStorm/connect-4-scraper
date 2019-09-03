@@ -24,7 +24,6 @@ def play_game
   exit!
   end
   puts 'I\'m not sure what you mean. y or n?' while q.to_s != 'y' || 'n'
-
 end
 
 play_game
